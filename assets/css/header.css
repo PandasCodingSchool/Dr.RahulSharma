@@ -1264,7 +1264,7 @@
 	position:absolute;
 	left:0px;
 	top:-50px;
-	padding:32px 90px;
+	padding: 10px 40px;
 }
 
 .main-header.header-style-two .logo-box:before{
@@ -1288,7 +1288,7 @@
 
 .header-style-two .header-upper .inner-container{
 	position:relative;
-	padding-left:330px;
+	padding-left: 285px;
 }
 
 .header-style-two .main-menu .navigation > li > a{

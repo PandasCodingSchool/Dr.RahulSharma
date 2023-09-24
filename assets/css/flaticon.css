@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon_flats.eot");
+  src: url("../fonts/flaticon_flatsd41d.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon_flats.woff") format("woff"),
+       url("../fonts/flaticon_flats.ttf") format("truetype"),
+       url("../fonts/flaticon_flats.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon_flats.svg#Flaticon") format("svg");
+  }
+}
+
+.flaticon-phone-message:before {
+    content: "\f101";
+}
+.flaticon-ultrasound:before {
+    content: "\f102";
+}
+.flaticon-hospital:before {
+    content: "\f103";
+}
+.flaticon-thumbs-up:before {
+    content: "\f104";
+}
+.flaticon-solidarity:before {
+    content: "\f105";
+}
+.flaticon-syringe:before {
+    content: "\f106";
+}
+.flaticon-close:before {
+    content: "\f107";
+}
+.flaticon-back:before {
+    content: "\f108";
+}
+.flaticon-next:before {
+    content: "\f109";
+}
+.flaticon-laboratory:before {
+    content: "\f10a";
+}
+.flaticon-research:before {
+    content: "\f10b";
+}
+.flaticon-ventilator:before {
+    content: "\f10c";
+}
+.flaticon-send-mail:before {
+    content: "\f10d";
+}
+.flaticon-cancer:before {
+    content: "\f10e";
+}
+.flaticon-examining-table:before {
+    content: "\f10f";
+}
+.flaticon-shopping-cart:before {
+    content: "\f110";
+}
+.flaticon-emergency:before {
+    content: "\f111";
+}
+.flaticon-surgery-room:before {
+    content: "\f112";
+}
+.flaticon-orthopedics:before {
+    content: "\f113";
+}
+.flaticon-cancer-1:before {
+    content: "\f114";
+}
+.flaticon-skin:before {
+    content: "\f115";
+}
+.flaticon-medical-team:before {
+    content: "\f116";
+}
+.flaticon-dentist-chair:before {
+    content: "\f117";
+}
+.flaticon-tooth-whitening:before {
+    content: "\f118";
+}
+.flaticon-medical-assistance:before {
+    content: "\f119";
+}
+.flaticon-menu:before {
+    content: "\f11a";
+}
+.flaticon-hematology:before {
+    content: "\f11b";
+}
+.flaticon-microscope:before {
+    content: "\f11c";
+}
+.flaticon-x-rays:before {
+    content: "\f11d";
+}
+.flaticon-ambulance:before {
+    content: "\f11e";
+}
+.flaticon-floss:before {
+    content: "\f11f";
+}
+.flaticon-clock:before {
+    content: "\f120";
+}
+.flaticon-heart:before {
+    content: "\f121";
+}
+.flaticon-up-arrow:before {
+    content: "\f122";
+}
+.flaticon-quote:before {
+    content: "\f123";
+}
+.flaticon-file:before {
+    content: "\f124";
+}
+.flaticon-placeholder:before {
+    content: "\f125";
+}
+.flaticon-plus:before {
+    content: "\f126";
+}
+.flaticon-stethoscope:before {
+    content: "\f127";
+}
+.flaticon-pills:before {
+    content: "\f128";
+}
+.flaticon-first-aid-kit:before {
+    content: "\f129";
+}
+.flaticon-medical-history:before {
+    content: "\f12a";
+}
+.flaticon-medicine:before {
+    content: "\f12b";
+}
+.flaticon-dental-care:before {
+    content: "\f12c";
+}
+.flaticon-doctor:before {
+    content: "\f12d";
+}
+.flaticon-search-interface-symbol:before {
+    content: "\f12e";
+}
+.flaticon-implant:before {
+    content: "\f12f";
+}
+.flaticon-medical-report:before {
+    content: "\f130";
+}
+.flaticon-dental-implant:before {
+    content: "\f131";
+}
+.flaticon-telephone:before {
+    content: "\f132";
+}
+.flaticon-liver:before {
+    content: "\f133";
+}
+.flaticon-quote-1:before {
+    content: "\f134";
+}
+.flaticon-kidney:before {
+    content: "\f135";
+}
+.flaticon-education:before {
+    content: "\f136";
+}
+.flaticon-dental-filling:before {
+    content: "\f137";
+}
+.flaticon-patient:before {
+    content: "\f138";
+}
+.flaticon-mri:before {
+    content: "\f139";
+}
+.flaticon-right:before {
+    content: "\f13a";
+}
+.flaticon-minus:before {
+    content: "\f13b";
+}
+.flaticon-bag:before {
+    content: "\f13c";
+}

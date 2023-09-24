@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+:root {
+	
+	/* #14c599 in decimal RGB */
+	--main-color: #018f55;
+	
+	--color-four: var(--color-thirteen);
+	
+}

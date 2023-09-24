@@ -26,14 +26,14 @@
     }
   }
 
-  //   var texts = document.getElementsByClassName("service-block_text");
-  //   console.log(texts[0].innerHTML);
-
-  //   for (let i = 0; i < texts.length; i++) {
-  //     var str = texts[i].innerHTML;
-  //     var truncated = str.substring(0, 120) + "...";
-  //     texts[i].innerHTML = truncated;
-  //   }
+  var texts = document.getElementsByClassName("service-block_text");
+  if (texts.length > 0) {
+    for (let i = 0; i < texts.length; i++) {
+      var str = texts[i].innerHTML;
+      var truncated = str.substring(0, 60) + "...";
+      texts[i].innerHTML = truncated;
+    }
+  }
 
   headerStyle();
 
@@ -962,6 +962,32 @@
       },
     });
   }
+  // appointment validation
+  // if ($("#appointment-form").length) {
+  //   $("#appointment-form").validate({
+  //     rules: {
+  //       username: {
+  //         required: true,
+  //       },
+  //       email: {
+  //         required: true,
+  //         email: true,
+  //       },
+  //       phone: {
+  //         required: true,
+  //       },
+  //       date: {
+  //         required: true,
+  //       },
+  //       subject: {
+  //         required: true,
+  //       },
+  //       message: {
+  //         required: true,
+  //       },
+  //     },
+  //   });
+  // }
 
   // Scroll to a Specific Div
   if ($(".scroll-to-target").length) {

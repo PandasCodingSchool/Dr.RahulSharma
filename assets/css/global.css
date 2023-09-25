@@ -83,7 +83,8 @@
 	--color-four-rgb:249,49,59;
 	
 	/* #eef5ff in decimal RGB */
-	--color-five: rgb(238,245,255);
+	/* --color-five: rgb(238,245,255); */
+		--color-five: #a8dadc;
 	--color-five-rgb:238,245,255;
 	
 	/* #ffc001 in decimal RGB */
@@ -99,7 +100,8 @@
 	--color-eight-rgb:11,63,131;
 	
 	/* #eff3fa in decimal RGB */
-	--color-nine: rgb(239,243,250);
+	/* --color-nine: rgb(239,243,250); */
+		--color-nine: #f1faee;
 	--color-nine-rgb:239,243,250;
 	
 	/* #40acec in decimal RGB */

@@ -290,33 +290,37 @@
 				
 				<!-- Default Form -->
 				<div class="default-form contact-form">
-						<div class="row clearfix">
-							
-							<div class="col-lg-6 col-md-6 col-sm-12 form-group">
-								<input type="text" name="name" id="name" placeholder="Name" required="">
-							</div>
-							
-							<div class="col-lg-6 col-md-6 col-sm-12 form-group">
-								<input type="text" name="phone" id="phone" placeholder="Phone" required="">
-							</div>
-							
-							<div class="col-lg-12 col-md-12 col-sm-12 form-group">
-								<textarea class="" id="address" name="Address" placeholder="Address"></textarea>
-							</div>
-							
-							<div class="col-lg-12 col-md-12 col-sm-12 form-group text-center">
-								<!-- Button Box -->
-								<div class="button-box">
-									<button class="theme-btn btn-style-one" onclick="sendAppointmentDataOnWhatsapp()" >
-										<span class="btn-wrap">
-											<span class="text-one">Submit</span>
-											<span class="text-two">Submit</span>
-										</span>
-									</button>
-								</div>
-							</div>
-							
-						</div>
+                                        <form id="appointment-form" action="">
+                                                <div class="row clearfix">
+                                                        
+                                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                                                <input type="text" name="name" id="name" placeholder="Name" required="">
+                                                        </div>
+                                                        
+                                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                                                <input type="text" name="phone" id="phone" placeholder="Phone" required="">
+
+                                                        </div>
+                                                        
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                                                <textarea class="" id="address" required name="Address" placeholder="Address"></textarea>
+
+                                                        </div>
+                                                        
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group text-center">
+                                                                <!-- Button Box -->
+                                                                <div class="button-box">
+                                                                        <button  class="theme-btn btn-style-one" onclick="sendAppointmentDataOnWhatsapp()" >
+                                                                                <span class="btn-wrap">
+                                                                                        <span class="text-one">Submit</span>
+                                                                                        <span class="text-two">Submit</span>
+                                                                                </span>
+                                                                        </button>
+                                                                </div>
+                                                        </div>
+                                                        
+                                                </div>
+                                        </form>
 				</div>
 				<!-- End Default Form -->
 				
@@ -527,7 +531,16 @@
     </script>
     <script>
         function sendAppointmentDataOnWhatsapp(){
-
+              // appointment validation
+            //const number = '9636641137';
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const address = document.getElementById('address').value;
+            var messageWithUrl = "https://wa.me/9589311150?text="+"Name: "+name+"%0a"+ "Mobile Number: " +phone +"%0a" + "Address : "+address;
+            
+            if(name.length > 0 && phone.length > 0 && address.length > 0){
+                window.open(messageWithUrl,'_blank').focus();
+            }
         }
     </script>
 		

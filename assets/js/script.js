@@ -962,32 +962,7 @@
       },
     });
   }
-  // appointment validation
-  // if ($("#appointment-form").length) {
-  //   $("#appointment-form").validate({
-  //     rules: {
-  //       username: {
-  //         required: true,
-  //       },
-  //       email: {
-  //         required: true,
-  //         email: true,
-  //       },
-  //       phone: {
-  //         required: true,
-  //       },
-  //       date: {
-  //         required: true,
-  //       },
-  //       subject: {
-  //         required: true,
-  //       },
-  //       message: {
-  //         required: true,
-  //       },
-  //     },
-  //   });
-  // }
+
 
   // Scroll to a Specific Div
   if ($(".scroll-to-target").length) {

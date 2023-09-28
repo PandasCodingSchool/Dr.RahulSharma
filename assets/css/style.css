@@ -1260,6 +1260,7 @@
 }
 
 .testimonial-block_one-heading {
+	padding-top: 15px;
 	position: relative;
 	font-weight: 700;
 	font-size: var(--font-30);
@@ -1291,6 +1292,7 @@
 .news-block_one {
 	position: relative;
 	margin-bottom: var(--margin-bottom-30);
+	height: 700px;
 }
 
 .news-block_one-inner {
@@ -6196,6 +6198,7 @@
 
 .contact-info-block_inner {
 	position: relative;
+	height: 340px;
 	padding: 40px 30px;
 	text-align: center;
 	border: 1px solid rgba(0, 0, 0, 0.10);

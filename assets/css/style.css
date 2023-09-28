@@ -72,6 +72,7 @@
 .slider-one_content {
 	position: relative;
 	max-width: 680px;
+	margin-right: 10%;
 }
 
 .slider-one_content-inner {
@@ -291,16 +292,24 @@
 	display: inline-block;
 }
 
+.about-one_image img {
+	max-width: 80%;
+}
 .about-one_image-two {
 	position: absolute;
-	right: 50px;
+	right: -50px;
 	bottom: 0px;
+	top: 280px;
+	}
+	
+	.about-one_image-two img {
+		max-width: 80%;
 }
 
 .about-one_icon {
 	position: absolute;
 	right: 135px;
-	top: 32%;
+	top: 54%;
 	z-index: 1;
 	border-radius: 100px;
 	display: inline-block;
@@ -617,7 +626,7 @@
 .modern-one .counter-one {
 	position: absolute;
 	left: -300px;
-	bottom: 50px;
+	bottom: -150px;
 	right: 50px;
 	padding: 35px 50px 0px;
 	background-position: left bottom;
